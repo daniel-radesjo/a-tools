@@ -5,6 +5,10 @@ All tools can be used with [queue](https://github.com/daniel-radesjo/queue) to p
 # Tools list
 - axiom7.6.py [Win]: Processing and export of portable case with [Magnet Forensics Axiom](https://www.magnetforensics.com/products/magnet-axiom)
 
+# Required applications and modules
+- Python 3.8+
+- Python modules for Windows: uiautomation, comtypes (pip install uiautomation comtypes)
+
 # axiom7.6.py [Win] (Magnet Forensics Axiom 7.6)
 ```
 axiom7.6.py [-h] -n NAME -i IMG -p PATH [-w WORDLIST] [-t THREADS] [--type TYPE] [--temp TEMP] [--perf] [-v]

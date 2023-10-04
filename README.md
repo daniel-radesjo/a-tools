@@ -7,9 +7,10 @@ All tools can be used with [queue](https://github.com/daniel-radesjo/queue) to p
 
 # Required applications and modules
 - Python 3.8+
-- Python modules for Windows: uiautomation, comtypes (pip install uiautomation comtypes)
+- Python modules for Windows: uiautomation, psutil, pywin32 (pip install uiautomation psutil pywin32)
 
 # axiom7.6.py [Win] (Magnet Forensics Axiom 7.6)
+Configure Axiom license/dongle before running script.
 ```
 axiom7.6.py [-h] -n NAME -i IMG -p PATH [-w WORDLIST] [-t THREADS] [--type TYPE] [--temp TEMP] [--perf] [-v]
 -h: Show help message

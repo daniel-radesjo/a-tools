@@ -25,6 +25,7 @@ axiom76.py [-h] -n NAME -i IMG -p PATH [-w WORDLIST] [-t THREADS] [--type TYPE] 
 --type TYPE: Image type (win, mac, linux). Default is win.
 --temp TEMP: Temp folder path
 --perf: Show performance information
+--checkdb: Show settings database values and exit
 -v: Show more verbose output
 
 axiom.ini:

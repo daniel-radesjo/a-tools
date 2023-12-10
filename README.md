@@ -5,17 +5,17 @@ All tools/scripts can be used with [queue](https://github.com/daniel-radesjo/que
 Remember to turn off antivirus, screensaver, automatic screen lock, etc. Don't lock the screen when script is running. GUI automation cannot be running when screen is locked/visible. Power off screen manually when needed. Don't use the computer when script is running.
 
 # Tools list
-- axiom76.py [Win]: Processing and export of portable case with [Magnet Forensics Axiom](https://www.magnetforensics.com/products/magnet-axiom)
+- axiom77.py [Win]: Processing and export of portable case with [Magnet Forensics Axiom](https://www.magnetforensics.com/products/magnet-axiom)
 
 # Required applications and modules
 - Main tool used by the script must be installed, started and configured
 - Python 3.8+
 - Python modules for Windows: uiautomation, psutil, pywin32 (pip install uiautomation psutil pywin32)
 
-# axiom76.py [Win] (Magnet Forensics Axiom 7.6)
+# axiom77.py [Win] (Magnet Forensics Axiom 7.7)
 Configure Axiom license/dongle before running script.
 ```
-axiom76.py [-h] -n NAME -i IMG -p PATH [-w WORDLIST] [-t THREADS] [--type TYPE] [--temp TEMP] [--perf] [-v]
+axiom77.py [-h] -n NAME -i IMG -p PATH [-w WORDLIST] [-t THREADS] [--type TYPE] [--temp TEMP] [--perf] [--checkdb] [-v]
 -h: Show help message
 -n NAME: Case name
 -i IMG: Image file
@@ -40,5 +40,5 @@ axiom.ini:
   - Close: Close Axiom
 
 Example:
-python axiom76.py -n CASE_1 -i Z:\CASE_1.E01 -p Z:\Axiom7.6 -w Z:\wordlist.txt -t 32 --perf
+python axiom77.py -n CASE_1 -i Z:\CASE_1.E01 -p Z:\Axiom7.6 -w Z:\wordlist.txt -t 32 --perf
 ```

@@ -5,7 +5,7 @@ All tools/scripts can be used with [queue](https://github.com/daniel-radesjo/que
 Remember to turn off antivirus, screensaver, automatic screen lock, etc. Don't lock the screen when script is running. GUI automation cannot be running when screen is locked/visible. Power off screen manually when needed. Don't use the computer when script is running.
 
 # Tools list
-- axiom77.py [Win]: Processing and export of portable case with [Magnet Forensics Axiom](https://www.magnetforensics.com/products/magnet-axiom)
+- [axiom77.py](#axiom77py-win-magnet-forensics-axiom-77) [Win]: Processing and export of portable case with [Magnet Forensics Axiom](https://www.magnetforensics.com/products/magnet-axiom)
 
 # Required applications and modules
 - Main tool used by the script must be installed, started and configured

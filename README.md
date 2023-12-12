@@ -33,6 +33,9 @@ axiom.ini:
   - Execute: Path to AXIOMProcess.exe
   - WaitTime: Seconds to wait between different actions and performance output
   - LogLevel: Default log level (ERROR, INFO, DEBUG)
+  - Settings: Path to Axiom Examine Settings.db
+  - ProcessTitle: Axiom Process window title (without version)
+  - ExamineTitle: Axiom Examine window title (without version)
 - [steps]
   - Start: Start Axiom
   - Process: Process image
